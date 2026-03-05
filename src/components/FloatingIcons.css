@@ -1,0 +1,62 @@
+.floating-icons-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.floating-skill-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: icon-wander ease-in-out infinite;
+    will-change: transform, opacity;
+}
+
+@keyframes icon-wander {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 0.04;
+    }
+
+    10% {
+        opacity: 0.09;
+    }
+
+    25% {
+        transform: translate(var(--mx1, 100px), var(--my1, -80px)) rotate(72deg) scale(1.15);
+        opacity: 0.07;
+    }
+
+    35% {
+        opacity: 0.1;
+    }
+
+    50% {
+        transform: translate(var(--mx2, -60px), var(--my2, 120px)) rotate(180deg) scale(0.85);
+        opacity: 0.06;
+    }
+
+    60% {
+        opacity: 0.1;
+    }
+
+    75% {
+        transform: translate(var(--mx3, 80px), var(--my3, -50px)) rotate(270deg) scale(1.1);
+        opacity: 0.08;
+    }
+
+    85% {
+        opacity: 0.05;
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(360deg) scale(1);
+        opacity: 0.04;
+    }
+}

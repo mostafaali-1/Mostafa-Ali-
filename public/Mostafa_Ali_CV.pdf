@@ -1,0 +1,349 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5131 >>
+stream
+BT
+/F2 22 Tf
+1 0 0 1 40.00 801.89 Tm
+(Mostafa Ali) Tj
+ET
+BT
+/F1 13 Tf
+1 0 0 1 208.00 803.89 Tm
+(Front end Developer) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 40.00 779.89 Tm
+(Email: mostafsalkasaby53@gmail.com) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 779.89 Tm
+(Phone: +201024381851) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 40.00 767.89 Tm
+(Location: Beheira, Egypt) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 767.89 Tm
+(DOB: 3/5/2003) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 40.00 755.89 Tm
+(LinkedIn: linkedin.com/in/mostafa-ali-337884250) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 755.89 Tm
+(GitHub: github.com/mostafaali-1) Tj
+ET
+BT
+/F2 12 Tf
+1 0 0 1 40.00 735.89 Tm
+(Profile) Tj
+ET
+1.2 w
+40.00 732.89 m 555.28 732.89 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 720.89 Tm
+(Frontend Developer with 2.5+ years of experience building responsive and interactive web interfaces using HTML, CSS,) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 40.00 708.29 Tm
+(JavaScript, TypeScript, and React. Delivered 15+ production web applications including enterprise dashboards, real estate) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 40.00 695.69 Tm
+(platforms with SVG maps and VR views, and bilingual RTL platforms. Experienced with dual payment integrations \(Stripe +) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 40.00 683.09 Tm
+(Paymob\), performance optimization achieving 90+ Core Web Vitals scores, and modern development workflows.) Tj
+ET
+BT
+/F2 12 Tf
+1 0 0 1 40.00 660.49 Tm
+(Skills) Tj
+ET
+1.2 w
+40.00 657.49 m 555.28 657.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 645.49 Tm
+(html) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 645.49 Tm
+(css) Tj
+ET
+0.3 w
+40.00 638.49 m 555.28 638.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 634.49 Tm
+(javascript) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 634.49 Tm
+(typescript) Tj
+ET
+0.3 w
+40.00 627.49 m 555.28 627.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 623.49 Tm
+(react) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 623.49 Tm
+(next.js) Tj
+ET
+0.3 w
+40.00 616.49 m 555.28 616.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 612.49 Tm
+(tailwindcss) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 612.49 Tm
+(bootstrap) Tj
+ET
+0.3 w
+40.00 605.49 m 555.28 605.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 601.49 Tm
+(redux/toolkit) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 601.49 Tm
+(sass/scss) Tj
+ET
+0.3 w
+40.00 594.49 m 555.28 594.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 590.49 Tm
+(framer motion) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 590.49 Tm
+(sveltekit) Tj
+ET
+0.3 w
+40.00 583.49 m 555.28 583.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 579.49 Tm
+(git/github) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 579.49 Tm
+(vite/webpack) Tj
+ET
+0.3 w
+40.00 572.49 m 555.28 572.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 568.49 Tm
+(figma) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 568.49 Tm
+(jest) Tj
+ET
+0.3 w
+40.00 561.49 m 555.28 561.49 l S
+BT
+/F1 9 Tf
+1 0 0 1 40.00 557.49 Tm
+(postman) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 557.49 Tm
+(jira) Tj
+ET
+0.3 w
+40.00 550.49 m 555.28 550.49 l S
+BT
+/F2 12 Tf
+1 0 0 1 40.00 538.49 Tm
+(Projects) Tj
+ET
+1.2 w
+40.00 535.49 m 555.28 535.49 l S
+BT
+/F2 10 Tf
+1 0 0 1 40.00 523.49 Tm
+(Booking App) Tj
+ET
+BT
+/F1 8 Tf
+1 0 0 1 40.00 511.49 Tm
+(Booking App -- TypeScript, React, Tailwind CSS, Vite) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 40.00 501.49 Tm
+(A modern hotel booking application featuring property search and filtering, booking management, responsive design with Tailwind CSS,) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 40.00 489.59 Tm
+(and a sleek user interface for seamless travel planning.) Tj
+ET
+BT
+/F2 10 Tf
+1 0 0 1 40.00 469.69 Tm
+(Spyedra) Tj
+ET
+BT
+/F1 8 Tf
+1 0 0 1 40.00 457.69 Tm
+(Spyedra -- React, JavaScript, CSS, Vite) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 40.00 447.69 Tm
+(A feature-rich React web application showcasing modern frontend practices with dynamic styling, responsive layouts, and interactive UI) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 40.00 435.79 Tm
+(components.) Tj
+ET
+BT
+/F2 10 Tf
+1 0 0 1 40.00 415.89 Tm
+(Gelato Luxe) Tj
+ET
+BT
+/F1 8 Tf
+1 0 0 1 40.00 403.89 Tm
+(Gelato Luxe -- React, JavaScript, CSS, Vite) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 40.00 393.89 Tm
+(A premium gelato brand website with elegant design, smooth animations, beautiful product showcases, and a luxurious user experience.) Tj
+ET
+BT
+/F2 10 Tf
+1 0 0 1 40.00 373.99 Tm
+(El-Halawany) Tj
+ET
+BT
+/F1 8 Tf
+1 0 0 1 40.00 361.99 Tm
+(El-Halawany -- React, JavaScript, CSS, Vite) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 40.00 351.99 Tm
+(A professional business/brand website with clean modern interface, intuitive navigation, and professional layout.) Tj
+ET
+BT
+/F2 12 Tf
+1 0 0 1 40.00 328.09 Tm
+(Languages) Tj
+ET
+1.2 w
+40.00 325.09 m 555.28 325.09 l S
+BT
+/F1 9 Tf
+1 0 0 1 50.00 313.09 Tm
+(- Arabic) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 297.64 313.09 Tm
+(- English) Tj
+ET
+BT
+/F2 12 Tf
+1 0 0 1 40.00 295.09 Tm
+(Education) Tj
+ET
+1.2 w
+40.00 292.09 m 555.28 292.09 l S
+BT
+/F2 10 Tf
+1 0 0 1 40.00 280.09 Tm
+(Bachelor's, Computer Engineering) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 54.00 268.09 Tm
+(\(2021 - 2025, BHI - Beheira, Egypt\)) Tj
+ET
+BT
+/F2 10 Tf
+1 0 0 1 40.00 254.09 Tm
+(Frontend Development Diploma - Eraasoft) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 54.00 242.09 Tm
+(Intensive program covering React.js, JavaScript, HTML/CSS, responsive design.) Tj
+ET
+BT
+/F2 10 Tf
+1 0 0 1 40.00 228.09 Tm
+(McKinsey Forward Program - McKinsey & Company, 2023) Tj
+ET
+BT
+/F1 8.5 Tf
+1 0 0 1 54.00 216.09 Tm
+(Professional development in problem-solving, leadership, and strategic thinking.) Tj
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000257 00000 n 
+0000005440 00000 n 
+0000005537 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5639
+%%EOF

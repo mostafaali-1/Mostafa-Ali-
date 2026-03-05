@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostafa_Ali_CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            color: #222;
+            background: #fff;
+            line-height: 1.4;
+            font-size: 11px;
+        }
+
+        .cv-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 28px 38px;
+        }
+
+        /* HEADER */
+        .cv-name-row {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+
+        .cv-name-row h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .cv-name-row .cv-role {
+            font-size: 15px;
+            font-weight: 400;
+            color: #555;
+            font-style: italic;
+        }
+
+        /* Contact */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3px 30px;
+            margin-bottom: 14px;
+            font-size: 10.5px;
+            color: #333;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .contact-item svg {
+            width: 12px;
+            height: 12px;
+            flex-shrink: 0;
+            color: #b8860b;
+        }
+
+        .contact-grid a {
+            color: #b8860b;
+            text-decoration: none;
+        }
+
+        /* Sections */
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #111;
+            border-bottom: 1.5px solid #333;
+            padding-bottom: 2px;
+            margin-bottom: 6px;
+            margin-top: 12px;
+        }
+
+        /* Profile */
+        .profile-text {
+            font-size: 10.5px;
+            color: #333;
+            line-height: 1.55;
+            text-align: justify;
+        }
+
+        /* Skills */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .skills-table td {
+            padding: 2.5px 0;
+            font-size: 10.5px;
+            color: #333;
+            width: 50%;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Projects */
+        .project-item {
+            margin-bottom: 8px;
+        }
+
+        .project-name {
+            font-size: 11px;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .project-link {
+            font-size: 10px;
+            color: #b8860b;
+            text-decoration: none;
+            margin-left: 4px;
+        }
+
+        .project-tech {
+            font-size: 10px;
+            color: #555;
+            margin: 1px 0;
+        }
+
+        .project-desc {
+            font-size: 10px;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        /* Languages */
+        .languages-row {
+            display: flex;
+            gap: 30px;
+            font-size: 11px;
+        }
+
+        .languages-row li {
+            list-style: disc;
+            margin-left: 16px;
+        }
+
+        /* Education */
+        .edu-item {
+            margin-bottom: 4px;
+        }
+
+        .edu-degree {
+            font-size: 11px;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .edu-degree::before {
+            content: '§';
+            margin-right: 5px;
+            color: #b8860b;
+        }
+
+        .edu-details {
+            font-size: 10px;
+            color: #555;
+            margin-left: 14px;
+        }
+
+        /* Force single page */
+        @media print {
+            body {
+                margin: 0;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .cv-page {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            @page {
+                margin: 10mm 12mm;
+                size: A4;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-page">
+
+        <!-- NAME -->
+        <div class="cv-name-row">
+            <h1>Mostafa Ali</h1>
+            <span class="cv-role">Front end Developer</span>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="contact-grid">
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+                mostafsalkasaby53@gmail.com
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                +201024381851
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                </svg>
+                Beheira, Egypt
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                    <line x1="16" y1="2" x2="16" y2="6" />
+                    <line x1="8" y1="2" x2="8" y2="6" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+                3/5/2003
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+                <a href="https://www.linkedin.com/in/mostafa-ali-337884250/"
+                    target="_blank">linkedin.com/in/mostafa-ali-337884250</a>
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                <a href="https://github.com/mostafaali-1" target="_blank">github.com/mostafaali-1</a>
+            </div>
+        </div>
+
+        <!-- PROFILE -->
+        <h2 class="section-title">Profile</h2>
+        <p class="profile-text">
+            Frontend Developer with 2.5+ years of experience building responsive and interactive web interfaces using
+            HTML, CSS, JavaScript, TypeScript, and React. Delivered 15+ production web applications including enterprise
+            dashboards, real estate platforms with SVG maps and VR views, and bilingual RTL platforms. Experienced with
+            dual payment integrations (Stripe + Paymob), performance optimization achieving 90+ Core Web Vitals scores,
+            and modern development workflows. Eager to contribute to high-quality digital solutions and grow as a
+            developer.
+        </p>
+
+        <!-- SKILLS -->
+        <h2 class="section-title">Skills</h2>
+        <table class="skills-table">
+            <tr>
+                <td>html</td>
+                <td>css</td>
+            </tr>
+            <tr>
+                <td>javascript</td>
+                <td>typescript</td>
+            </tr>
+            <tr>
+                <td>react</td>
+                <td>next.js</td>
+            </tr>
+            <tr>
+                <td>tailwindcss</td>
+                <td>bootstrap</td>
+            </tr>
+            <tr>
+                <td>redux/toolkit</td>
+                <td>sass/scss</td>
+            </tr>
+            <tr>
+                <td>framer motion</td>
+                <td>sveltekit</td>
+            </tr>
+            <tr>
+                <td>git/github</td>
+                <td>vite/webpack</td>
+            </tr>
+            <tr>
+                <td>figma</td>
+                <td>jest</td>
+            </tr>
+            <tr>
+                <td>postman</td>
+                <td>jira</td>
+            </tr>
+        </table>
+
+        <!-- PROJECTS -->
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-item">
+            <span class="project-name">Booking App</span>
+            <a class="project-link" href="https://mostafaali-1.github.io/Booking/" target="_blank">↗</a>
+            <div class="project-tech">Booking App — TypeScript, React, Tailwind CSS, Vite</div>
+            <div class="project-desc">A modern hotel booking application featuring property search and filtering,
+                booking management, responsive design with Tailwind CSS, and a sleek user interface. Built with
+                type-safe architecture.</div>
+        </div>
+
+        <div class="project-item">
+            <span class="project-name">Spyedra</span>
+            <a class="project-link" href="https://mostafaali-1.github.io/Spyedra/" target="_blank">↗</a>
+            <div class="project-tech">Spyedra — React, JavaScript, CSS, Vite</div>
+            <div class="project-desc">A feature-rich React web application showcasing modern frontend practices with
+                dynamic styling, responsive layouts, and interactive UI components focused on CSS-driven aesthetics and
+                user experience.</div>
+        </div>
+
+        <div class="project-item">
+            <span class="project-name">Gelato Luxe</span>
+            <a class="project-link" href="https://mostafaali-1.github.io/Gelato-Luxe/" target="_blank">↗</a>
+            <div class="project-tech">Gelato Luxe — React, JavaScript, CSS, Vite</div>
+            <div class="project-desc">A premium gelato brand website with elegant design, smooth animations, beautiful
+                product showcases, and a luxurious user experience reflecting the brand identity.</div>
+        </div>
+
+        <div class="project-item">
+            <span class="project-name">El-Halawany</span>
+            <a class="project-link" href="https://mostafaali-1.github.io/El-Halawany/" target="_blank">↗</a>
+            <div class="project-tech">El-Halawany — React, JavaScript, CSS, Vite</div>
+            <div class="project-desc">A professional business/brand website with a clean, modern interface, intuitive
+                navigation, polished styling, and a professional layout suitable for corporate presentation.</div>
+        </div>
+
+        <!-- LANGUAGES -->
+        <h2 class="section-title">Languages</h2>
+        <div class="languages-row">
+            <ul>
+                <li>Arabic</li>
+            </ul>
+            <ul>
+                <li>English</li>
+            </ul>
+        </div>
+
+        <!-- EDUCATION -->
+        <h2 class="section-title">Education</h2>
+        <div class="edu-item">
+            <div class="edu-degree">Bachelor's, Computer Engineering</div>
+            <div class="edu-details">(2021 – 2025, BHI — Beheira, Egypt)</div>
+        </div>
+        <div class="edu-item">
+            <div class="edu-degree">Frontend Development Diploma — Eraasoft</div>
+            <div class="edu-details">Intensive program covering React.js, JavaScript, HTML/CSS, responsive design, and
+                professional practices.</div>
+        </div>
+        <div class="edu-item">
+            <div class="edu-degree">McKinsey Forward Program — McKinsey & Company, 2023</div>
+            <div class="edu-details">Professional development in problem-solving, leadership, and strategic thinking.
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Auto-trigger Save as PDF
+        window.addEventListener('load', function () {
+            setTimeout(function () { window.print(); }, 600);
+        });
+    </script>
+</body>
+
+</html>

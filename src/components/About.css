@@ -1,0 +1,161 @@
+.about-section {
+    padding: 6rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    perspective: 1200px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.section-header h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 0.8rem 0;
+    letter-spacing: 1px;
+}
+
+.section-divider {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: 0 0 12px rgba(0, 210, 255, 0.4);
+    animation: divider-pulse 3s ease-in-out infinite;
+}
+
+@keyframes divider-pulse {
+
+    0%,
+    100% {
+        width: 60px;
+        box-shadow: 0 0 12px rgba(0, 210, 255, 0.4);
+    }
+
+    50% {
+        width: 90px;
+        box-shadow: 0 0 20px rgba(0, 210, 255, 0.6);
+    }
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    padding: 1.8rem 2rem;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+.about-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--about-color, var(--neon-blue)), transparent);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.about-card:hover::before {
+    opacity: 1;
+}
+
+.about-card:hover {
+    border-color: color-mix(in srgb, var(--about-color, #00d2ff) 20%, transparent);
+    box-shadow:
+        0 12px 40px rgba(0, 0, 0, 0.4),
+        0 0 25px color-mix(in srgb, var(--about-color, #00d2ff) 8%, transparent);
+}
+
+.about-card-glow {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, color-mix(in srgb, var(--about-color, #00d2ff) 8%, transparent) 0%, transparent 70%);
+    transform: translateY(-50%);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.about-card:hover .about-card-glow {
+    opacity: 1;
+}
+
+.about-card-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: color-mix(in srgb, var(--about-color, #00d2ff) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--about-color, #00d2ff) 15%, transparent);
+    border-radius: 12px;
+    color: var(--about-color, var(--neon-blue));
+    transition: all 0.3s ease;
+}
+
+.about-card:hover .about-card-icon {
+    box-shadow: 0 0 20px color-mix(in srgb, var(--about-color, #00d2ff) 25%, transparent);
+}
+
+.about-card-content {
+    flex: 1;
+}
+
+.about-highlight {
+    color: var(--about-color, var(--neon-blue));
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0 0 0.6rem 0;
+}
+
+.about-text {
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 4rem 1.5rem;
+    }
+
+    .about-card {
+        padding: 1.4rem;
+        gap: 1rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

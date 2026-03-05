@@ -1,0 +1,118 @@
+.services-section {
+    padding: 6rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.service-card {
+    padding: 2rem 1.6rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.service-card:hover {
+    border-color: color-mix(in srgb, var(--service-color) 30%, transparent);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4),
+        0 0 20px color-mix(in srgb, var(--service-color) 10%, transparent);
+}
+
+.service-glow {
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, color-mix(in srgb, var(--service-color) 8%, transparent) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.service-card:hover .service-glow {
+    opacity: 1;
+}
+
+.service-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    margin-bottom: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .service-icon-wrapper {
+    background: color-mix(in srgb, var(--service-color) 8%, transparent);
+    border-color: color-mix(in srgb, var(--service-color) 20%, transparent);
+    box-shadow: 0 0 20px color-mix(in srgb, var(--service-color) 15%, transparent);
+}
+
+.service-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 0.8rem 0;
+    line-height: 1.4;
+}
+
+.service-description {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0 0 1.2rem 0;
+}
+
+.service-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.service-feature-tag {
+    padding: 0.2rem 0.6rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .service-feature-tag {
+    border-color: color-mix(in srgb, var(--service-color) 20%, transparent);
+    color: color-mix(in srgb, var(--service-color) 70%, white);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .services-section {
+        padding: 4rem 1.5rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 1.5rem;
+    }
+}
