@@ -199,7 +199,7 @@ const Projects = ({ lang = 'en' }) => {
                             {project.featured && <div className="featured-badge">★ Featured</div>}
                             <div className="project-image-wrapper">
                                 <img
-                                    src={project.image}
+                                    src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`}
                                     alt={project.title}
                                     className="project-image"
                                     loading="lazy"

@@ -100,7 +100,7 @@ const Hero = ({ lang = 'ar', setLang }) => {
                     <div className="avatar-glow"></div>
                     <div className="avatar-ring"></div>
                     <img
-                        src="/profile-white.png"
+                        src={`${import.meta.env.BASE_URL}profile-white.png`}
                         alt={currentT.name}
                         className="avatar-image"
                         onError={(e) => {
@@ -134,7 +134,7 @@ const Hero = ({ lang = 'ar', setLang }) => {
                 {/* Action Buttons */}
                 <motion.div className="hero-actions" variants={itemVariants}>
                     <motion.a
-                        href="/cv.html"
+                        href={`${import.meta.env.BASE_URL}cv.html`}
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn-primary"
